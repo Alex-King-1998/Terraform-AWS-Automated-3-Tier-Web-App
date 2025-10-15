@@ -110,13 +110,13 @@ Secure, scalable, cloud-native patterns
 
 📸 **Optional Enhancements**
 
-If you deploy the project:
+If you choose to deploy the project, you could:
 
-Add screenshots of the AWS console
+- Add screenshots of the AWS console to demonstrate deployed resources.
 
-Include Cloud Architecture Diagram using Draw.io or Lucidchart
+- Include a polished cloud architecture diagram (Draw.io, Lucidchart) for visual clarity.
 
-Integrate with a CI/CD pipeline (GitHub Actions, Jenkins, or Terraform Cloud)
+- Integrate with a CI/CD pipeline (GitHub Actions, Jenkins, Terraform Cloud) to showcase automation skills.
 
 **🧾 License**
 
