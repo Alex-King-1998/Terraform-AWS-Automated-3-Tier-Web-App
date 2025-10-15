@@ -2,7 +2,8 @@ This project demonstrates how to use Terraform to provision an automated, produc
 
 It showcases real-world cloud engineering principles — modular design, environment isolation, and secure, scalable automation — while remaining safe to display on GitHub without incurring costs.
 
-🏗️ Architecture Overview
+🏗️ **Architecture Overview**
+
 
 Below is a visual representation of the deployed architecture:
 
@@ -34,8 +35,9 @@ Below is a visual representation of the deployed architecture:
                  │ (MySQL/PostgreSQL - Secure)  │
                  └──────────────────────────────┘
 
-🧩 Features
 
+🧩 **Features**
+  
 Fully automated AWS 3-tier infrastructure
 
 Reusable Terraform modules for VPC, Compute, and Database layers
@@ -48,44 +50,49 @@ Follows AWS best practices for networking and security
 
 Cost-control friendly: safe to showcase as code only
 
-🗂️ Project Structure
-3-tier-terraform/
-│
-├── alb.tf               # Application Load Balancer config
-├── ec2.tf               # EC2 instances setup
-├── main.tf              # Main Terraform config
-├── outputs.tf           # Outputs from Terraform deployment
-├── rds.tf               # RDS instance config
-├── security-groups.tf   # Security groups definitions
-├── user-data.sh         # EC2 user data script
-├── variables.tf         # Input variables
-├── vpc.tf               # VPC and networking setup
-├── .gitignore           # Git ignore file
-└── .terraform.lock.hcl  # Terraform lock file
-│
-└── README.md
 
-⚡ How to Run
+🗂️ **Project Structure**  
+
+3-tier-terraform/  
+│  
+├── alb.tf               # Application Load Balancer config  
+├── ec2.tf               # EC2 instances setup  
+├── main.tf              # Main Terraform config  
+├── outputs.tf           # Outputs from Terraform deployment  
+├── rds.tf               # RDS instance config  
+├── security-groups.tf   # Security groups definitions  
+├── user-data.sh         # EC2 user data script  
+├── variables.tf         # Input variables  
+├── vpc.tf               # VPC and networking setup  
+├── .gitignore           # Git ignore file  
+└── .terraform.lock.hcl  # Terraform lock file  
+└── README.md  
+    
+
+  
+⚡ **How to Run**
+
 
 💰 Note: Running this will create AWS resources and may incur small costs.
 
+
 1️⃣ Initialize Terraform
-terraform init
+```terraform init```
 
 2️⃣ Create/Select a Workspace
-terraform workspace new dev
-terraform workspace select dev
+```terraform workspace new dev```
+```terraform workspace select dev```
 
 3️⃣ Preview Infrastructure
-terraform plan -var-file="dev.tfvars"
+```terraform plan -var-file="dev.tfvars"```
 
 4️⃣ Apply Changes (Optional)
-terraform apply -var-file="dev.tfvars"
+```terraform apply -var-file="dev.tfvars"```
 
 5️⃣ Destroy Resources
-terraform destroy -var-file="dev.tfvars"
+```terraform destroy -var-file="dev.tfvars"```
 
-🧠 Key Concepts Demonstrated
+🧠 **Key Concepts Demonstrated**
 
 Infrastructure as Code (IaC) with Terraform
 
@@ -101,7 +108,7 @@ Terraform variables, outputs, and workspaces
 
 Secure, scalable, cloud-native patterns
 
-📸 Optional Enhancements
+📸 **Optional Enhancements**
 
 If you deploy the project:
 
@@ -111,10 +118,10 @@ Include Cloud Architecture Diagram using Draw.io or Lucidchart
 
 Integrate with a CI/CD pipeline (GitHub Actions, Jenkins, or Terraform Cloud)
 
-🧾 License
+**🧾 License**
 
 MIT License — free to use and modify for learning and portfolio purposes.
 
-👤 Author
+**👤 Author**
 
 Alex King — Cloud Engineer
