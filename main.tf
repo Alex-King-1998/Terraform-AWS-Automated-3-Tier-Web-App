@@ -4,7 +4,7 @@ terraform {
     bucket         = "alex-terraform-state-king-1024"
     key            = "3tier/terraform.tfstate"
     region         = "ap-southeast-2"
-    dynamodb_table = "terraform-locks"
+    use_lockfile   = true
     encrypt        = true
   }
   required_providers {
