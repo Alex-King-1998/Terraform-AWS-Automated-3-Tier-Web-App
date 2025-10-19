@@ -2,7 +2,7 @@
 
 This project demonstrates how to use Terraform to provision an automated, production-grade 3-tier web application architecture on AWS.
 
-It showcases real-world cloud engineering principles — modular design, environment isolation, and secure, scalable automation — while remaining safe to display on GitHub without incurring costs.
+It showcases how to build an architecture consisting of multiple EC2 instances deployed in multiple AZs behind an Application Load Balancer, and utilizes an Auto Scaling group for elasticity and isolates the application and database tiers in private subnets.
 
 🏗️ **Architecture Overview**
 
@@ -118,7 +118,7 @@ If you choose to deploy the project, you could:
 
 - Include a polished cloud architecture diagram (Draw.io, Lucidchart) for visual clarity.
 
-- Integrate with a CI/CD pipeline (GitHub Actions, Jenkins, Terraform Cloud) to showcase automation skills.
+- Integrate with a CI/CD pipeline (GitHub Actions, Jenkins, Terraform Cloud) to showcase automation skills. Example: https://github.com/Alex-King-1998/Terraform-CI-CD-Pipeline
 
 **🧾 License**
 
