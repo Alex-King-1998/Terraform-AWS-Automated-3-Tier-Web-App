@@ -1,3 +1,5 @@
+# **Terraform-AWS-Automated-3-Tier-Web-App**
+
 This project demonstrates how to use Terraform to provision an automated, production-grade 3-tier web application architecture on AWS.
 
 It showcases real-world cloud engineering principles — modular design, environment isolation, and secure, scalable automation — while remaining safe to display on GitHub without incurring costs.
